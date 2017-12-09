@@ -1,9 +1,9 @@
-{
+module.exports = {
 	"netsh": {
 		"SSID": "SSID",
-		"BSSID": "BSSIDD",
+		"BSSID": "BSSID",
 		"Signal": "Signal",
-		"Channel": "Kanal"
+		"Channel": "Channel"
 	},
 	"airport": {
 		"BSSID": "BSSID",
@@ -15,10 +15,16 @@
 	},
 	"iwlist": {
 		"Cell": "Cell",
+		"Address": "Address",
 		"ESSID": "ESSID",
 		"Channel": "Channel",
 		"Signal level": "Signal level",
 		"Scan completed :": "Scan completed :",
 		"Interface doesn't support scanning.": "Interface doesn't support scanning."
+	},
+	"nmcli": {
+		"SSID": "SSID",
+		"BSSID": "BSSID",
+		"CHAN": "CHAN"
 	}
 }
